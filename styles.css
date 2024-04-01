@@ -108,29 +108,4 @@ left: 0; /* Align with the left edge of the input box */
 .autocomplete-items div:hover, .autocomplete-items .selected {
     background-color: #e9e9e9;
 }
-
-@media only screen and (max-width: 600px) {
-
-    body{
-        display: block;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-    .container {
-      max-width: 90%; /* Adjust container width for smaller screens */
-      padding-top: 10px; /* Decrease padding for better use of space */
-      margin-top: 0;
-    }
-  
-    input[type="text"] {
-      font-size: 14px; /* Decrease font size for input fields */
-      max-width: 80%;;
-    }
-  
-    button {
-      padding: 12px 24px; /* Increase button padding for easier tapping */
-    }
-  }
   
