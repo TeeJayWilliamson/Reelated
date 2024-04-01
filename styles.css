@@ -136,6 +136,5 @@ left: 0; /* Align with the left edge of the input box */
       padding-top: 0; /* If the body has padding, set it to 0 as well */
       margin: 14px;
       display: block;
-      overflow: hidden;
     }
   }
