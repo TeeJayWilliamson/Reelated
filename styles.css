@@ -6,7 +6,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     overflow-y: auto;
 }
 
@@ -19,6 +18,9 @@ body {
     border-radius: 10px;
     box-shadow: 0px 4px 20px rgba(51, 0, 0, 0.5); /* Adjust the opacity as needed */
     text-align: center;
+    margin: 20px auto; /* Center the container horizontally */
+    min-height: 80vh; /* Adjust as needed */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport height */
 }
 
 .logo {
