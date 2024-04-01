@@ -20,6 +20,21 @@ body {
     text-align: center;
 }
 
+.logo {
+  width: 250px; /* Default size */
+}
+
+    @media (min-width: 768px) {
+    .logo {
+        width: 450px;
+    }
+    }
+    @media (min-width: 1200px) {
+    .logo {
+        width: 450px;
+    }
+    }
+
 h1 {
     margin-top: 0;
     color: #333;
