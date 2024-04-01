@@ -82,11 +82,13 @@ button:hover {
 
 #resultContainer div {
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 h2 {
-    color: #007bff;
+    color: #b38b52;
     margin-top: 0;
+    text-decoration: underline;
 }
 
 ul {
