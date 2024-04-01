@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reelated</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><img src="logo.png" class="logo" alt="Reelated Logo"> </h1>
+        <form id="movieForm">
+            <label for="movie1">Enter Title of Movie 1:</label><br>
+            <input type="text" id="movie1" name="movie1" required><br>
+            <label for="movie2">Enter Title of Movie 2:</label><br>
+            <input type="text" id="movie2" name="movie2" required><br><br>
+            <button type="button" id="compareButton">Compare</button> <!-- Change type to "button" -->
+            <button type="button" id="resetButton">Reset</button>
+        </form>
+
+        <div id="resultContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
