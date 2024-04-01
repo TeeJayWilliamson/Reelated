@@ -112,7 +112,9 @@ left: 0; /* Align with the left edge of the input box */
 @media only screen and (max-width: 600px) {
     .container {
       max-width: 90%; /* Adjust container width for smaller screens */
-      padding: 10px; /* Decrease padding for better use of space */
+      padding-top: 10px; /* Decrease padding for better use of space */
+      padding-left: 5px;
+      padding-right: 5px;
     }
   
     input[type="text"] {
