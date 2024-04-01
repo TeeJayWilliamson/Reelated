@@ -19,7 +19,7 @@ body {
     box-shadow: 0px 4px 20px rgba(51, 0, 0, 0.5); /* Adjust the opacity as needed */
     text-align: center;
     margin: 10% auto; /* Center the container horizontally */
-    min-height: 40vh; /* Adjust as needed */
+    min-height: 0vh; /* Adjust as needed */
     overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport height */
 }
 
